@@ -8,6 +8,7 @@
 
 body{
     min-width: 375px;
+    height: 100vh; 
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     font-size: 15px;
@@ -79,7 +80,7 @@ main{
         max-width: 470px;
     }
     .heading h1, h2{
-        font-size: 1.8em;
+        font-size: 2em;
     }
   
     .card-container{
@@ -92,6 +93,12 @@ main{
     }
     .card{
         margin:20px;
+        width: 350px;
+        height: 250px;
+    }
+    .card img{
+        left: 250px;
+        top: 90px;
     }
 
 }
@@ -99,6 +106,7 @@ main{
 @media (min-width: 1200px){
     .card-container {
         width: 85%;
+        max-width: 1200px;
         display: grid;
         flex-flow: row wrap;
         justify-content: center;
