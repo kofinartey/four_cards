@@ -36,7 +36,7 @@ main{
 }
 .heading h1 {
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 .heading h2 {
@@ -93,12 +93,12 @@ main{
     }
     .card{
         margin:20px;
-        width: 300px;
-        height: 200px;
+        width: 350px;
+        height: 250px;
     }
     .card img{
-        left: 200px;
-        top: 40px;
+        left: 250px;
+        top: 70px;
     }
 
 }
