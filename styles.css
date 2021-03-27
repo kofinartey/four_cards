@@ -32,7 +32,7 @@ main{
 .heading{
     text-align: center;
     margin-bottom: 30px;
-    
+    max-width: 300px;   
 }
 .heading h1 {
     font-weight: 600;
@@ -52,6 +52,7 @@ main{
     padding: 25px;
     margin: 30px 0;
     box-shadow: 0 5px 20px hsl(215, 41%, 85%);   
+    line-height: 1.5em;
 }
 #card2 {
     border-color:hsl(0, 78%, 62%) ;
@@ -70,17 +71,19 @@ main{
 }
 
 .card p {
+    margin-top: 5px;
     font-size: 12px;
 }
 
 /* MEDIA QUERIES */
 
-@media (min-width: 750px){
+@media (min-width: 900px){
+
     .heading{
         max-width: 470px;
     }
     .heading h1, h2{
-        font-size: 2em;
+        font-size: 2.5em;
     }
   
     .card-container{
@@ -93,20 +96,18 @@ main{
     }
     .card{
         margin:20px;
-        width: 350px;
-        height: 250px;
+       
     }
-    .card img{
-        left: 250px;
-        top: 70px;
-    }
+   
+  
 
 }
 
 @media (min-width: 1200px){
+ 
     .card-container {
         width: 85%;
-        max-width: 1200px;
+        max-width: 1100px;
         display: grid;
         flex-flow: row wrap;
         justify-content: center;
@@ -115,6 +116,15 @@ main{
     }
     .card {
         margin: 15px;
+        width: 350px;
+        height: 250px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .card img{
+        left: 250px;
+        top: 70px;
     }
     #card1{
         grid-column: 1/2;
